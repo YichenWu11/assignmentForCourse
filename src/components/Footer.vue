@@ -33,6 +33,7 @@ export default {
   justify-content:space-between;
   /*-webkit-transition: width 1s, height 1s,-webkit-transform 1s;*/
   transition: width 0.5s, height 0.5s, transform 0.5s;
+  z-index:1;
 }
 
 .footer:hover {
