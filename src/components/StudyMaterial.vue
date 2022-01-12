@@ -8,7 +8,7 @@
           </div>
 
           <div class="passage">
-            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;作为一名计算机专业的学生，在学习计算机知识的过程中，对我帮助最大的有下面几个网站(我个人相较看视频，更喜欢看文档看文章)</p>
+            <p>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;作为一名计算机专业的学生，在学习计算机知识的过程中，对我帮助最大的有下面几个网站</p>
             <ul>
               <li><a target="_blank" href="https://www.runoob.com/"
                      style="text-decoration: none;font-size: x-large"><b>菜鸟教程</b></a></li>
@@ -38,6 +38,8 @@
                      href="https://www.imooc.com/?utm_term=%E6%85%95%E8%AF%BE%E7%BD%91&utm_campaign=SEM&utm_source=bdpinpai&bd_vid=11468315091654791157"
                      style="text-decoration: none;font-size: x-large"><b>慕课网</b></a></li>
               <p>自称程序员的梦工厂，程序员都爱的课程网站，上面的有些几百块的课程还是很划算的，老师讲的相对都比较好</p>
+              <li><a href="https://www.bilibili.com/" target="_blank" style="text-decoration: none;font-size: x-large">B站</a></li>
+              <p>知名的哔哩哔哩大学</p>
               <li><a href="#" style="text-decoration: none;font-size: x-large"><b>各种IDE或编辑器(vscode)</b></a>
               </li>
               <p>自己手敲代码永远是最好的学习练习方式</p>
@@ -63,34 +65,16 @@ export default {
     padding: 15px;
     width: 90%;
     margin-top: 10px;
-    margin-left: 30px;
+    margin-left: 20px;
     /*font-size: large;*/
     text-shadow: 5px 5px 5px grey;
     border-style: solid;
     border-radius: 5px;
     box-shadow: 10px 10px 5px grey;
-    animation: myfirst 2s;
-  }
-
-   @keyframes myfirst {
-    /* 0% {
-       background: lightgray;
-     } */
-    /*25% {*/
-    /*    background: silver;*/
-    /*}*/
-    50% {
-      background: ghostwhite;
-    }
-    /*75% {*/
-    /*    background: silver;*/
-    /*}*/
-    100% {
-      background: whitesmoke;
-    }
   }
 
   .passage {
+    margin-right: 20px;
     margin-top: 10px;
     font-weight: bold;
     /*text-indent: 6px;*/

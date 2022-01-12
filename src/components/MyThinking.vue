@@ -38,36 +38,17 @@ export default {
     background: whitesmoke;
     text-align: center;
     padding: 15px;
-    width: 900px;
+    width: 700px;
     margin-top: 10px;
-    margin-left: 30px;
+    margin-left: 15px;
     text-shadow: 5px 5px 5px grey;
     border-style: solid;
     border-radius: 5px;
     box-shadow: 10px 10px 5px grey;
-    animation: myfirst 2s;
-  }
-
-  @keyframes myfirst {
-    /* 0% {
-       background: lightgray;
-     } */
-    /*25% {*/
-    /*    background: silver;*/
-    /*}*/
-    50% {
-      background: ghostwhite;
-    }
-    /*75% {*/
-    /*    background: silver;*/
-    /*}*/
-    100% {
-      background: whitesmoke;
-    }
   }
 
   .passagetext {
-    margin: 30px 10px 10px 10px;
+    margin: 30px 20px 10px 20px;
     position: relative;
     display: block;
   }
