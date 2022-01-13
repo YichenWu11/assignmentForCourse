@@ -1,6 +1,6 @@
 <template>
   <div>
-    <el-carousel :interval="4000" type="card" height="1200px" class="spe-carousel" :autoplay="false">
+    <el-carousel type="card" height="1200px" class="spe-carousel" :autoplay="false">
       <el-carousel-item v-for="item in 4" :key="item">
         <Diagram v-show="item === 1"/>
         <StudyMaterial v-show="item === 2"/>
@@ -56,6 +56,15 @@
     width: 1530px;
     top: -30px;
     z-index: 0;
+  }
+
+  .line {
+    height: 2px;
+    /*width: calc(100% - 20px);*/
+    width: 100%;
+    background-color: gray;
+    position: absolute;
+    /* overflow-y: auto; */
   }
 
 </style>

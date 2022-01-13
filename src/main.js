@@ -5,6 +5,7 @@ import { Carousel, CarouselItem } from 'element-ui'
 
 Vue.prototype.$http = axios
 Vue.config.productionTip = false
+// 注册成全局组件
 Vue.component(Carousel.name, Carousel);
 Vue.component(CarouselItem.name, CarouselItem);
 

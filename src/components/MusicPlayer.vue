@@ -29,7 +29,6 @@ export default {
       query:"",
       musicList:[],
       musicUrl:"",
-      hotComments:[],
       isPlaying: false
     }
   },
@@ -55,7 +54,6 @@ export default {
     play() {
       // console.log("play");
       this.isPlaying = true;
-      // console.log("点击了");
     },
     // 歌曲暂停
     pause() {
